@@ -106,6 +106,7 @@ header {
 	border: 1px solid #ccc;
 	padding: 8px 10px;
 	border-radius: 8px;
+	margin: 10px 0px ;
 }
 
 input {
@@ -190,6 +191,12 @@ input:focus {
 .about-link {
 	display: flex;
 	justify-content: flex-end;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	border-radius: 50%;
+	background-color: red;
+	padding: 10px 15px;
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
@@ -200,7 +207,7 @@ input:focus {
 }
 
 .about-link a:hover {
-	color: #ff6a95;
+	color: #f4f4f4;
 }
 
 .about h1 {
